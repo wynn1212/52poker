@@ -29,7 +29,7 @@ for (i = 1; i <= 52; i++) {
 	if (!(i % 10)) printf("\n");
 }
 	printf("\n");
-	system("pause");
+	system("pause"); //Remove this and change to getch()
 	return 0;
 }
 
